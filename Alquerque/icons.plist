@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPad</key>
+	<dict>
+		<key>black</key>
+		<string>black@2x.png</string>
+		<key>white</key>
+		<string>white@2x.png</string>
+		<key>highlight</key>
+		<string>red@2x.png</string>
+		<key>blank</key>
+		<string>blank.png</string>
+	</dict>
+	<key>iPhone</key>
+	<dict>
+		<key>black</key>
+		<string>black.png</string>
+		<key>white</key>
+		<string>white.png</string>
+		<key>highlight</key>
+		<string>red.png</string>
+		<key>blank</key>
+		<string>blank.png</string>
+	</dict>
+</dict>
+</plist>

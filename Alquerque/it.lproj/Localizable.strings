@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Alquerque
+
+  Created by Thomas Barrasso on 4/24/11.
+*/
+"INVALID_JUMP_OWN_PIECE" = "Non è possibile saltare il vostro pezzo di gioco!";
+"INVALID_DISTANCE_TOO_FAR" = "Non si può saltare così lontano!";
+"INVALID_DIAGONAL_NOT_TRAVERSABLE" = "Non si può viaggiare lungo la diagonale!";
+"INVALID_DESTINATION_NOT_FREE" = "È possibile spostare solo in spazi liberi!";
+"INVALID_ORIGIN_NOT_PLAYER" = "È possibile spostare solo i pezzi giocatore!";
+"INVALID_WRONG_PLAYERS_PIECE" = "Non è possibile muovere i pezzi degli altri giocatori!";
+"INVALID_NO_MOVE_MADE" = "Non è possibile spostare in cui si sono già!";
+"INVALID_COMPELLED_JUMP_ELSEWHERE" = "You are compelled to move another piece.";
+"INVALID_MOVE" = "Invalid Move!";
+"PLAYER_WON" = "%@ ha vinto!";
+"PLAYER_ONE" = "Giocatore numero uno";
+"PLAYER_TWO" = "Giocatore numero due";
+"CONGRATS" = "Strada da fare, siete i migliori. Forse un rematch è in ordine?";
+"CONFIRM_OK" = "Bene";

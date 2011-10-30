@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Alquerque
+
+  Created by Thomas Barrasso on 4/24/11.
+*/
+"INVALID_JUMP_OWN_PIECE" = "You cannot jump your own piece!";
+"INVALID_DISTANCE_TOO_FAR" = "You cannot jump that far!";
+"INVALID_DIAGONAL_NOT_TRAVERSABLE" = "You cannot travel along that diagonal!";
+"INVALID_DESTINATION_NOT_FREE" = "You can only move onto free spaces!";
+"INVALID_ORIGIN_NOT_PLAYER" = "You can only move player pieces!";
+"INVALID_WRONG_PLAYERS_PIECE" = "You cannot move the other player's pieces!";
+"INVALID_NO_MOVE_MADE" = "You cannot move to where you already are!";
+"INVALID_COMPELLED_JUMP_ELSEWHERE" = "You are compelled to move another piece.";
+"INVALID_MOVE" = "Invalid Move!";
+"PLAYER_WON" = "%@ has won!";
+"PLAYER_ONE" = "Player One";
+"PLAYER_TWO" = "Player Two";
+"CONGRATS" = "Way to go, you are the best. Perhaps a rematch is in order?";
+"CONFIRM_OK" = "OK";

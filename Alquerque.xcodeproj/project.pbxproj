@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3946BB5A1363977E0020E350 /* black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3946BB571363977E0020E350 /* black@2x.png */; };
+		3946BB5B1363977E0020E350 /* board@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3946BB581363977E0020E350 /* board@2x.png */; };
+		3946BB5C1363977E0020E350 /* white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3946BB591363977E0020E350 /* white@2x.png */; };
+		3946BB6013639C370020E350 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 3946BB5E13639C370020E350 /* red.png */; };
+		3946BB6113639C370020E350 /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3946BB5F13639C370020E350 /* red@2x.png */; };
+		3946BB6313639E460020E350 /* icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3946BB6213639E460020E350 /* icons.plist */; };
+		39CE3E0113648701000C0443 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39CE3E0313648701000C0443 /* Localizable.strings */; };
+		39CE3E1F1368DEDE000C0443 /* default-settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39CE3E1E1368DEDE000C0443 /* default-settings.plist */; };
+		39CE3E2113690C95000C0443 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE3E2013690C94000C0443 /* GameKit.framework */; };
+		39CE3E2313690CAB000C0443 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE3E2213690CAB000C0443 /* GameKit.framework */; };
+		39DCF98D136AFE1600C9B752 /* NSAlquerqueMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DCF98C136AFE1600C9B752 /* NSAlquerqueMove.m */; };
+		39DCF994136C8AD000C9B752 /* NSAlquerqueUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DCF993136C8ACF00C9B752 /* NSAlquerqueUtils.m */; };
+		39F4091313611BE500AA4AC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F4091213611BE500AA4AC0 /* UIKit.framework */; };
+		39F4091513611BE500AA4AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F4091413611BE500AA4AC0 /* Foundation.framework */; };
+		39F4091713611BE500AA4AC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F4091613611BE500AA4AC0 /* CoreGraphics.framework */; };
+		39F4091D13611BE500AA4AC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F4091B13611BE500AA4AC0 /* InfoPlist.strings */; };
+		39F4092013611BE500AA4AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F4091F13611BE500AA4AC0 /* main.m */; };
+		39F4092313611BE500AA4AC0 /* AlquerqueAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F4092213611BE500AA4AC0 /* AlquerqueAppDelegate.m */; };
+		39F4092613611BE500AA4AC0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F4092413611BE500AA4AC0 /* MainWindow.xib */; };
+		39F4092913611BE500AA4AC0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F4092813611BE500AA4AC0 /* MainViewController.m */; };
+		39F4092B13611BE500AA4AC0 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F4092A13611BE500AA4AC0 /* MainView.xib */; };
+		39F4092E13611BE500AA4AC0 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F4092D13611BE500AA4AC0 /* FlipsideViewController.m */; };
+		39F4093013611BE500AA4AC0 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F4092F13611BE500AA4AC0 /* FlipsideView.xib */; };
+		39F4094113611C2B00AA4AC0 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F4093F13611C2B00AA4AC0 /* MainWindow-iPad.xib */; };
+		39F4094D13611C7000AA4AC0 /* NSAlquerqueGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F4094C13611C7000AA4AC0 /* NSAlquerqueGame.m */; };
+		39F4095213611C9700AA4AC0 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F4094F13611C9700AA4AC0 /* black.png */; };
+		39F4095313611C9700AA4AC0 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F4095013611C9700AA4AC0 /* white.png */; };
+		39F4095413611C9700AA4AC0 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F4095113611C9700AA4AC0 /* board.png */; };
+		39F4095E136120BC00AA4AC0 /* FlipsideView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F4095D136120BC00AA4AC0 /* FlipsideView-iPad.xib */; };
+		39F409611361215A00AA4AC0 /* MainView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F409601361215A00AA4AC0 /* MainView-iPad.xib */; };
+		39F4097313636A2800AA4AC0 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F4097213636A2800AA4AC0 /* blank.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3946BB571363977E0020E350 /* black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black@2x.png"; sourceTree = "<group>"; };
+		3946BB581363977E0020E350 /* board@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board@2x.png"; sourceTree = "<group>"; };
+		3946BB591363977E0020E350 /* white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white@2x.png"; sourceTree = "<group>"; };
+		3946BB5E13639C370020E350 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		3946BB5F13639C370020E350 /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
+		3946BB6213639E460020E350 /* icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icons.plist; sourceTree = "<group>"; };
+		39CE3E0213648701000C0443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39CE3E0413648716000C0443 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39CE3E05136487BE000C0443 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39CE3E1E1368DEDE000C0443 /* default-settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "default-settings.plist"; sourceTree = "<group>"; };
+		39CE3E2013690C94000C0443 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		39CE3E2213690CAB000C0443 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		39DCF98B136AFE1600C9B752 /* NSAlquerqueMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlquerqueMove.h; sourceTree = "<group>"; };
+		39DCF98C136AFE1600C9B752 /* NSAlquerqueMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAlquerqueMove.m; sourceTree = "<group>"; };
+		39DCF992136C8ACF00C9B752 /* NSAlquerqueUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlquerqueUtils.h; sourceTree = "<group>"; };
+		39DCF993136C8ACF00C9B752 /* NSAlquerqueUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAlquerqueUtils.m; sourceTree = "<group>"; };
+		39F4090E13611BE500AA4AC0 /* Alquerque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alquerque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F4091213611BE500AA4AC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39F4091413611BE500AA4AC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39F4091613611BE500AA4AC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39F4091A13611BE500AA4AC0 /* Alquerque-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alquerque-Info.plist"; sourceTree = "<group>"; };
+		39F4091C13611BE500AA4AC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39F4091E13611BE500AA4AC0 /* Alquerque-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alquerque-Prefix.pch"; sourceTree = "<group>"; };
+		39F4091F13611BE500AA4AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39F4092113611BE500AA4AC0 /* AlquerqueAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlquerqueAppDelegate.h; sourceTree = "<group>"; };
+		39F4092213611BE500AA4AC0 /* AlquerqueAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlquerqueAppDelegate.m; sourceTree = "<group>"; };
+		39F4092513611BE500AA4AC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		39F4092713611BE500AA4AC0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		39F4092813611BE500AA4AC0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		39F4092A13611BE500AA4AC0 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		39F4092C13611BE500AA4AC0 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		39F4092D13611BE500AA4AC0 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		39F4092F13611BE500AA4AC0 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		39F4094013611C2B00AA4AC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		39F4094A13611C7000AA4AC0 /* NSAlquerqueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlquerqueDelegate.h; sourceTree = "<group>"; };
+		39F4094B13611C7000AA4AC0 /* NSAlquerqueGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlquerqueGame.h; sourceTree = "<group>"; };
+		39F4094C13611C7000AA4AC0 /* NSAlquerqueGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAlquerqueGame.m; sourceTree = "<group>"; };
+		39F4094F13611C9700AA4AC0 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		39F4095013611C9700AA4AC0 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		39F4095113611C9700AA4AC0 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		39F4095D136120BC00AA4AC0 /* FlipsideView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FlipsideView-iPad.xib"; sourceTree = "<group>"; };
+		39F409601361215A00AA4AC0 /* MainView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainView-iPad.xib"; sourceTree = "<group>"; };
+		39F4097213636A2800AA4AC0 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F4090B13611BE500AA4AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CE3E2113690C95000C0443 /* GameKit.framework in Frameworks */,
+				39F4091313611BE500AA4AC0 /* UIKit.framework in Frameworks */,
+				39F4091513611BE500AA4AC0 /* Foundation.framework in Frameworks */,
+				39F4091713611BE500AA4AC0 /* CoreGraphics.framework in Frameworks */,
+				39CE3E2313690CAB000C0443 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F4090313611BE400AA4AC0 = {
+			isa = PBXGroup;
+			children = (
+				39CE3E2013690C94000C0443 /* GameKit.framework */,
+				39F4091813611BE500AA4AC0 /* Alquerque */,
+				39F4091113611BE500AA4AC0 /* Frameworks */,
+				39F4090F13611BE500AA4AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F4090F13611BE500AA4AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F4090E13611BE500AA4AC0 /* Alquerque.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F4091113611BE500AA4AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CE3E2213690CAB000C0443 /* GameKit.framework */,
+				39F4091213611BE500AA4AC0 /* UIKit.framework */,
+				39F4091413611BE500AA4AC0 /* Foundation.framework */,
+				39F4091613611BE500AA4AC0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39F4091813611BE500AA4AC0 /* Alquerque */ = {
+			isa = PBXGroup;
+			children = (
+				39F4094E13611C8800AA4AC0 /* Images */,
+				39F4093E13611C2100AA4AC0 /* iPad */,
+				39F4095F1361212700AA4AC0 /* iPhone */,
+				39F4092113611BE500AA4AC0 /* AlquerqueAppDelegate.h */,
+				39F4092213611BE500AA4AC0 /* AlquerqueAppDelegate.m */,
+				39DCF992136C8ACF00C9B752 /* NSAlquerqueUtils.h */,
+				39DCF993136C8ACF00C9B752 /* NSAlquerqueUtils.m */,
+				39DCF98B136AFE1600C9B752 /* NSAlquerqueMove.h */,
+				39DCF98C136AFE1600C9B752 /* NSAlquerqueMove.m */,
+				39F4092713611BE500AA4AC0 /* MainViewController.h */,
+				39F4092813611BE500AA4AC0 /* MainViewController.m */,
+				39F4094A13611C7000AA4AC0 /* NSAlquerqueDelegate.h */,
+				39F4094B13611C7000AA4AC0 /* NSAlquerqueGame.h */,
+				39F4094C13611C7000AA4AC0 /* NSAlquerqueGame.m */,
+				39F4092C13611BE500AA4AC0 /* FlipsideViewController.h */,
+				39F4092D13611BE500AA4AC0 /* FlipsideViewController.m */,
+				39F4091913611BE500AA4AC0 /* Supporting Files */,
+			);
+			path = Alquerque;
+			sourceTree = "<group>";
+		};
+		39F4091913611BE500AA4AC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F4091A13611BE500AA4AC0 /* Alquerque-Info.plist */,
+				39F4091B13611BE500AA4AC0 /* InfoPlist.strings */,
+				39F4091E13611BE500AA4AC0 /* Alquerque-Prefix.pch */,
+				39F4091F13611BE500AA4AC0 /* main.m */,
+				3946BB6213639E460020E350 /* icons.plist */,
+				39CE3E0313648701000C0443 /* Localizable.strings */,
+				39CE3E1E1368DEDE000C0443 /* default-settings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39F4093E13611C2100AA4AC0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				39F4093F13611C2B00AA4AC0 /* MainWindow-iPad.xib */,
+				39F4095D136120BC00AA4AC0 /* FlipsideView-iPad.xib */,
+				39F409601361215A00AA4AC0 /* MainView-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		39F4094E13611C8800AA4AC0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3946BB5E13639C370020E350 /* red.png */,
+				3946BB5F13639C370020E350 /* red@2x.png */,
+				3946BB571363977E0020E350 /* black@2x.png */,
+				3946BB581363977E0020E350 /* board@2x.png */,
+				3946BB591363977E0020E350 /* white@2x.png */,
+				39F4097213636A2800AA4AC0 /* blank.png */,
+				39F4094F13611C9700AA4AC0 /* black.png */,
+				39F4095013611C9700AA4AC0 /* white.png */,
+				39F4095113611C9700AA4AC0 /* board.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		39F4095F1361212700AA4AC0 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				39F4092413611BE500AA4AC0 /* MainWindow.xib */,
+				39F4092A13611BE500AA4AC0 /* MainView.xib */,
+				39F4092F13611BE500AA4AC0 /* FlipsideView.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F4090D13611BE500AA4AC0 /* Alquerque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F4093313611BE500AA4AC0 /* Build configuration list for PBXNativeTarget "Alquerque" */;
+			buildPhases = (
+				39F4090A13611BE500AA4AC0 /* Sources */,
+				39F4090B13611BE500AA4AC0 /* Frameworks */,
+				39F4090C13611BE500AA4AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alquerque;
+			productName = Alquerque;
+			productReference = 39F4090E13611BE500AA4AC0 /* Alquerque.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F4090513611BE400AA4AC0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 39F4090813611BE400AA4AC0 /* Build configuration list for PBXProject "Alquerque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+				es,
+			);
+			mainGroup = 39F4090313611BE400AA4AC0;
+			productRefGroup = 39F4090F13611BE500AA4AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F4090D13611BE500AA4AC0 /* Alquerque */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F4090C13611BE500AA4AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F4091D13611BE500AA4AC0 /* InfoPlist.strings in Resources */,
+				39F4092613611BE500AA4AC0 /* MainWindow.xib in Resources */,
+				39F4092B13611BE500AA4AC0 /* MainView.xib in Resources */,
+				39F4093013611BE500AA4AC0 /* FlipsideView.xib in Resources */,
+				39F4094113611C2B00AA4AC0 /* MainWindow-iPad.xib in Resources */,
+				39F4095213611C9700AA4AC0 /* black.png in Resources */,
+				39F4095313611C9700AA4AC0 /* white.png in Resources */,
+				39F4095413611C9700AA4AC0 /* board.png in Resources */,
+				39F4095E136120BC00AA4AC0 /* FlipsideView-iPad.xib in Resources */,
+				39F409611361215A00AA4AC0 /* MainView-iPad.xib in Resources */,
+				39F4097313636A2800AA4AC0 /* blank.png in Resources */,
+				3946BB5A1363977E0020E350 /* black@2x.png in Resources */,
+				3946BB5B1363977E0020E350 /* board@2x.png in Resources */,
+				3946BB5C1363977E0020E350 /* white@2x.png in Resources */,
+				3946BB6013639C370020E350 /* red.png in Resources */,
+				3946BB6113639C370020E350 /* red@2x.png in Resources */,
+				3946BB6313639E460020E350 /* icons.plist in Resources */,
+				39CE3E0113648701000C0443 /* Localizable.strings in Resources */,
+				39CE3E1F1368DEDE000C0443 /* default-settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F4090A13611BE500AA4AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F4092013611BE500AA4AC0 /* main.m in Sources */,
+				39F4092313611BE500AA4AC0 /* AlquerqueAppDelegate.m in Sources */,
+				39F4092913611BE500AA4AC0 /* MainViewController.m in Sources */,
+				39F4092E13611BE500AA4AC0 /* FlipsideViewController.m in Sources */,
+				39F4094D13611C7000AA4AC0 /* NSAlquerqueGame.m in Sources */,
+				39DCF98D136AFE1600C9B752 /* NSAlquerqueMove.m in Sources */,
+				39DCF994136C8AD000C9B752 /* NSAlquerqueUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39CE3E0313648701000C0443 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CE3E0213648701000C0443 /* en */,
+				39CE3E0413648716000C0443 /* it */,
+				39CE3E05136487BE000C0443 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		39F4091B13611BE500AA4AC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F4091C13611BE500AA4AC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39F4092413611BE500AA4AC0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F4092513611BE500AA4AC0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		39F4093F13611C2B00AA4AC0 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F4094013611C2B00AA4AC0 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F4093113611BE500AA4AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39F4093213611BE500AA4AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		39F4093413611BE500AA4AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alquerque/Alquerque-Prefix.pch";
+				INFOPLIST_FILE = "Alquerque/Alquerque-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39F4093513611BE500AA4AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alquerque/Alquerque-Prefix.pch";
+				INFOPLIST_FILE = "Alquerque/Alquerque-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F4090813611BE400AA4AC0 /* Build configuration list for PBXProject "Alquerque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F4093113611BE500AA4AC0 /* Debug */,
+				39F4093213611BE500AA4AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F4093313611BE500AA4AC0 /* Build configuration list for PBXNativeTarget "Alquerque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F4093413611BE500AA4AC0 /* Debug */,
+				39F4093513611BE500AA4AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39F4090513611BE400AA4AC0 /* Project object */;
+}
