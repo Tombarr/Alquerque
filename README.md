@@ -1,10 +1,10 @@
 Alquerque - Ancient two-person predecessor to checker for iOS.
 =============
 
-Author: Thomas James Barrasso
-Name: Alquerque
-Version: One
-License: GNU GPLv3
+Author: Thomas James Barrasso  
+Name: Alquerque  
+Version: One  
+License: GNU GPLv3  
 
 Description:
 -------
