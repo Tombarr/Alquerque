@@ -9,7 +9,7 @@ License: GNU GPLv3
 Description:
 -------
 
-Alquerque is an ancient board game similar to checkers beginning with 12 pieces and two groups on a board with a total of 25 spaces. The center space is the only initially open space. Moves consist of 1-space shifts to open spaces or jumping opponent's pieces if within two spaces there is an opening. Unlike checkers any piece can move backward at any time and there are no kings, only one-sized piece exists. The winner is the last person standing when no pieces of the opponent exist on the board. Marks are made along the board to highlight possible movements.
+Alquerque is an ancient board game similar to checkers beginning with 12 pieces and two groups on a board with a total of 25 spaces. The center space is the only initially open space. Moves consist of 1-space shifts to open spaces or jumping opponent's pieces if within two spaces there is an opening. Unlike checkers any piece can move backward at any time and there are no kings, only one-sized piece exists. The winner is the last person standing when no pieces of the opponent exist on the board. Marks are made along the board to highlight possible movements.  
 This application in particular is designed in C/ Objective-C as a way to play Alquerque on an iOS device (including an iPod Touch, iPhone, or iPad). Each player gets a color to represent his pieces. There is a setting for compulsion, which can be found in the original Alquerque. It means that if a jump is possible the player is forced to complete it, regardless of other possible moves. If more than one jump is possible the user can decide which jump to do. With this setting disables then the player is free to decide what move to make, jump or not.
 
 License:
